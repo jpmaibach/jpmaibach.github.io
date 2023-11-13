@@ -1,0 +1,186 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+     text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+header {
+	background-color: #1c960c;
+	padding: 10px;
+}
+
+h1 {
+	margin: 0;
+	color: #FFF;
+	font-size: 36px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #FFF;
+	color: #1eff31;
+}
+
+main {
+	max-width: 960px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section {
+	flex: 3;
+	padding: 10px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+article {
+	margin-bottom: 20px;
+}
+
+article h3 {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+article p {
+	margin: 0;
+}
+
+aside {
+	flex: 1;
+	padding: 10px;
+	background-color: #F5F5F5;
+}
+
+aside h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+aside ul {
+	margin: 0 auto;}
+    
+ .horarios {
+            background-color: #DFF2BF;
+            padding: 10px;
+            margin: 20px auto;
+            border: 1px solid #8CBF26;
+            display: inline-block;
+            text-align: center;
+          }
+      
+      .horarios h2 {
+        color: #4F8A10;
+        font-size: 24px;
+        margin-top: 0;
+        text-align: center;
+      }
+      
+      .horarios ul {
+        margin: 0 auto;
+        padding: 0;
+      }
+      
+      .horarios ul li {
+        list-style: none;
+        padding: 5px 0;
+        border-top: 1px solid #8CBF26;
+         width: 657.6px;
+        height: 36.4px;
+        line-height: 36.4px;
+        margin: 0 auto;
+      }
+
+      .horarios ul li:first-child {
+        border-top: none;}
+        .horarios ul li {
+            position: relative;
+          }
+          .box {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+          }
+          
+          .box img {
+            width: 100%;
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+          }
+          
+          .box h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+          }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 960px;
+            margin: 0 auto;
+            text-align: center;
+          
+        }
+  
+          .box button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 5px;
+            padding: 5px 10px;
+            border: 2px solid green;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            color: green;
+          }
+details{
+
+  margin: 15px;
+}
+          
+          
+          
+          
+          
+          
+          
+          
+    
